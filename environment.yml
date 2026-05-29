@@ -1,0 +1,18 @@
+name: tides
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - earthaccess
+  - xarray
+  - h5py
+  - h5netcdf
+  - pyTMD
+  - pandas
+  - geopandas
+  - matplotlib
+  - cartopy
+  - s3fs
+  - fsspec
+  - coiled
+  - jupyterlab

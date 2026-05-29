@@ -1,0 +1,6 @@
+bahia_orange_predictions.csv
+/scratch/
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+.env
