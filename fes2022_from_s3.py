@@ -28,7 +28,7 @@ else:
         text=True,
     )
     if r.returncode == 0:
-        files = list(LOCAL_DIR.glob("**/*.nc"))
+        files = list(LOCAL_DIR.glob("**/*.nc*"))
         print(f"Done — {len(files)} files in {LOCAL_DIR}")
     else:
         print(f"aws s3 sync exited with code {r.returncode}")

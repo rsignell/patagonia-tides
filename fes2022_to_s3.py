@@ -11,7 +11,7 @@ from pathlib import Path
 LOCAL_DIR = Path("/scratch/fes2022")
 S3_URI = "s3://esip-qhub/fes2022/"
 
-files = list(LOCAL_DIR.glob("**/*.nc"))
+files = list(LOCAL_DIR.glob("**/*.nc*"))
 if not files:
     print(f"No .nc files found in {LOCAL_DIR}. Nothing to upload.")
 else:
